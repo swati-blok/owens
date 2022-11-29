@@ -1,0 +1,298 @@
+:root{
+    --font-family-pop: 'Poppins';
+    --font-family-heebo: 'Heebo';
+}
+.hero{
+    grid-template-columns: repeat(2, 1fr);
+}
+.h-img{
+    width: 100%;
+    height: 100%;
+}
+.nft{
+    padding-left: 76px;
+}
+.nft-heading{
+    font-style: normal;
+font-weight: 800;
+font-size: 68px;
+line-height: 100px;
+padding-top: 161px;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.nft-des{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 33px;
+color: #000000;
+padding-right: 20px;
+}
+.btn-grp{
+    gap: 24px;
+   /* flex-direction: row;
+justify-content: center;
+align-items: center;*/
+}
+.gs-btn{
+    padding: 14px 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+padding: 14px 32px;
+gap: 10px;
+
+width: 197px;
+height: 66px;
+
+background: linear-gradient(0deg, rgba(0, 162, 247, 0.2), rgba(0, 162, 247, 0.2)), linear-gradient(123.84deg, #656FD3 7.31%, #3985E3 26.25%, #00A2F7 78.98%, #149898 100%), #FFFFFF;
+border-radius: 100px;
+}
+.vm-btn{
+    box-sizing: border-box;
+padding: 14px 36px;
+gap: 10px; 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+width: 218px;
+height: 66px;
+
+background: rgba(255, 255, 255, 0.4);
+border: 1px solid #F9F7F7;
+box-shadow: 2px 2px 3px rgba(167, 167, 167, 0.7);
+border-radius: 100px;
+}
+.view{
+    gap: 58px;
+    padding-top: 72px;
+}
+.view-no{
+    flex-direction: column;
+    font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 48px;
+}
+.vw-name{
+    width: 70px;
+height: 21px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+opacity: 0.75;
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+/* UpcommingDrops */
+.VA-btn{
+    border-color: #000000;
+    border-radius: 100px;
+width: 106px;
+height: 40px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+
+.drop-heading{
+    font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 70px;
+color: #213A54;
+}
+.vw-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 3px 12px 3px 16px;
+    gap: 28px;
+    
+    width: 69px;
+    height: 32px;
+    
+    background: rgba(19, 50, 68, 0.4);
+    border-radius: 80px;
+    
+}
+.v-btn{
+    /* width: 41px;
+height: 26px; */
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+
+color: #000000;
+
+}
+.drops{
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 64px;
+    padding-top: 68px;
+    grid-gap: 200px;
+}
+.drop-cards{
+    gap: 28px;
+    padding-left: 64px;
+    padding-top: 22px;
+}
+.svg-name{
+    width: 117px;
+height: 24px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #474747;
+}
+
+
+.exp-card{
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 64px;
+    gap: 62px;
+}
+.upcoming-drops{
+    padding-bottom: 66.5px;
+}
+/* ======================================= */
+
+.st-coll{
+    grid-template-columns: repeat(2, 1fr);
+   /* padding-left: 64.5px; */
+}
+.col-heading{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 70px;
+/* identical to box height */
+color: #FFFFFF;
+}
+.stc{
+    padding-top: 75px;
+  background-color: #000000;
+}
+.coll-txt{
+    padding-left: 65px;
+    padding-right: 40px;
+}
+.col-description{
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+padding-right: 60px;
+}
+.col-button{
+
+box-sizing: border-box;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px 20px;
+gap: 10px;
+width: 201px;
+height: 61px;
+background: #00A2F7;
+border-radius: 80px;
+}
+.col-btn{
+    width: 300px;
+height: 29px;
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 29px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: #00A2F7;
+border: none;
+}
+
+.c-img{
+    padding-top: 0;
+    height: 494px;
+width: 428px;
+left: 942px;
+border-radius: 0px;
+}
+
+
+/* ================================================ */
+.news{
+    width: 1395px;
+height: 438px;
+left: 0.06px;
+top: 486px;
+background: linear-gradient(180deg, #273757 0%, #1E2E50 48.75%, #090E18 100%);
+border-radius: 30px;
+grid-template-columns: repeat(2, 1fr);
+}
+.news-letter{
+    padding-left: 65px;
+    padding-bottom: 107px;
+}
+.nw-img{
+    padding-left: 65px;
+/* padding-right: -4.57%; */
+/* padding-right: 100px; */
+border-radius: 30px;
+padding-bottom: 10px;
+/* border: 1px solid rgba(111, 115, 125, 0.5); */
+
+}
+
+
+.news-txt{
+    padding-top: 66px;
+}
+.email-form{
+    width: 480px;
+height: 62.69px;
+/* left: 0px;
+top: 192px; */
+
+background: #FFFFFF;
+border: 2px solid #00A2F7;
+border-radius: 28px;
+}
+.email-btn{
+    width: 140px;
+height: 62.69px;
+
+/* top: 192px; */
+
+background: #00A2F7;
+border-radius: 28px;
+}
+.footer{
+    background: #FFFFFF;
+    box-shadow: 0px -4px 21px rgba(149, 149, 149, 0.25);
+}

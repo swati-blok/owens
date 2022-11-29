@@ -1,0 +1,98 @@
+.dp-card-img{
+    width: 359px;
+    height: 339px;
+    padding: 24px;
+border-radius: 20px;
+}
+.title{
+    
+height: 24.51px;
+padding-left: 22px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+
+color: #000000;
+}
+.bt{
+width: 25px;
+padding-left: 10px;
+
+}
+.item{
+    
+width: 57px;
+height: 23.49px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 22px;
+
+color: #727D93;
+}
+.items{
+    gap: 180px;
+    padding-left: 24px;
+    padding-bottom: 24px;
+}
+.ec-img{
+    width: 273px;
+    height: 295.5px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.ec-card{
+width: 277px;
+height: 370px;
+background: #FFFFFF;
+box-shadow: 0px 1px 2px #CCD2DD;
+border-radius: 19px;
+box-sizing: border-box;
+}
+.item1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+
+color: #727D93;
+}
+.item2{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 20px;
+text-align: right;
+
+color: #A5A5A5;
+}
+
+.card-txt{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding-left: 15px;
+}
+/* ========================================================================== */
+.cat-img{
+    border-radius: 50%;
+    width: 200px;
+height: 200px;
+}
+.card-type{
+    width: 97px;
+height: 35px;
+
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 35px;
+
+color: #000000;
+}
