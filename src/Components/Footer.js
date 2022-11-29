@@ -1,6 +1,11 @@
 import React, { Fragment } from "react";
 import "../Components/styles/Footer.css";
 import logo from "../Assests/Images/owenslogo.png";
+import facebook from "D:/project/owens/src/Assests/Images/Facebook.png";
+import twitter from "D:/project/owens/src/Assests/Images/Twitter.png";
+import linkedin from "D:/project/owens/src/Assests/Images/LinkedIn.png"
+import youtube from "D:/project/owens/src/Assests/Images/YouTube.png";
+import instagram from "D:/project/owens/src/Assests/Images/Instagram.png";
 const Footer =()=>{
     return(
         <Fragment>
@@ -15,7 +20,13 @@ const Footer =()=>{
                             <div className="d-grid ft-content">
                                 <div className="d-grid ft-sc ps-4">
                                     <h3 className="sc-txt text-start ">Join our community</h3>
-                                    <div className="social">social</div>
+                                    <div className="social d-grid">
+                                        <img src={twitter} className="social-img" alt="social-img" />
+                                        <img src={instagram} className="social-img" alt="social-img" />
+                                        <img src={facebook} className="social-img" alt="social-img" />
+                                        <img src={youtube} className="social-img" alt="social-img" />
+                                        <img src={linkedin} className="social-img" alt="social-img" />
+                                    </div>
                                 </div>
                                 <div className="d-grid ft-list ">
                                     <div className="col-sm-4 col-md-3 footer-content ">

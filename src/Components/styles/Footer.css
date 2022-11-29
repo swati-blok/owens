@@ -67,6 +67,9 @@ line-height: 30px;
 color: #000000;
 
 }
+.social{
+    grid-template-columns: repeat(5, 1fr);
+}
 .term{
     grid-template-columns: repeat(2, 1fr);
     padding: 25px 64px;
